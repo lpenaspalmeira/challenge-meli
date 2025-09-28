@@ -1,9 +1,9 @@
-# Prototipo: Comparador de Productos - MVP Asistente de Compras
+# Challenge Técnico - Prototipo: Comparador de Productos - MVP Asistente de Compras
 
-Este repositorio contiene el código fuente, la documentación técnica y el plan estratégico para el prototipo de un Asistente de Compras con GenAI.
+Este repositorio contiene el código fuente, la documentación técnica y el plan de proyecto para el prototipo de un Asistente de Compras con GenAI.
 
 **Para una visión completa del proyecto, se recomienda leer primero el Plan Estratégico:**
--   **[📄 Ver Plan Estratégico del Proyecto (PDF)](./Plan-De-Trabajo-ProyectoGenAI.pdf)**
+-   **[📄 Ver Plan Estratégico del Proyecto (PDF)](./Plan-De-Proyecto_MVP-Asistente-ComprasGenAI.pdf)**
 
 ---
 ## Tabla de Contenidos
