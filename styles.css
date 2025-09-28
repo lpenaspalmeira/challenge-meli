@@ -1,0 +1,126 @@
+/* Estilos Globales */
+body {
+    background-color: #f0f2f5;
+}
+.header-section {
+    background-color: #fee500;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: #555;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Estilos de Tarjetas de Producto */
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
+}
+.product-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+.product-card-img-container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.product-card img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+.product-card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.product-card .product-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    min-height: 48px;
+}
+.product-card .rating-stars {
+    color: #f8b400;
+    font-size: 0.9rem;
+}
+.product-card .price {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #212529;
+    margin: 0.5rem 0;
+}
+
+/* Estilos de la Galería de Selección */
+.product-card-selectable { cursor: pointer; }
+.product-card-selectable.selected {
+    box-shadow: 0 0 0 3px var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+.product-card-selectable.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.comparison-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    padding: 1rem;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+.comparison-bar.visible {
+    transform: translateY(0);
+}
+
+/* Estilos de la Página de Comparación */
+.nav-tabs { border-bottom: 2px solid #dee2e6; }
+.nav-tabs .nav-link {
+    font-weight: 600;
+    color: #6c757d;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+.nav-tabs .nav-link.active {
+    color: #0d6efd;
+    background-color: transparent;
+    border-color: #0d6efd;
+}
+.specs-table { font-size: 0.9rem; }
+.specs-table thead th {
+    text-align: center;
+    font-weight: 500;
+    vertical-align: middle;
+}
+.specs-table .spec-label {
+    font-weight: bold;
+    background-color: #f8f9fa;
+}
+.specs-table td, .specs-table th { vertical-align: middle; }
+.specs-table .product-header { font-size: 0.9rem; }
+.specs-table .product-header img {
+    max-width: 60px;
+    margin-bottom: 0.5rem;
+}
