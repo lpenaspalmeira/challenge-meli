@@ -1,4 +1,4 @@
-# Prototipo: Comparador de Productos
+# Prototipo: Comparador de Productos - MVP Asistente de Compras
 
 Este repositorio contiene el código fuente, la documentación técnica y el plan estratégico para el prototipo de un Asistente de Compras con GenAI.
 
@@ -32,8 +32,8 @@ Abra una terminal o línea de comandos y sitúese en la carpeta raíz de este pr
 **Paso 2: Crear un Entorno Virtual**
 Se recomienda el uso de un entorno virtual para aislar las dependencias del proyecto.
 
-```python
-python -m venv venv
+```bash
+python3 -m venv venv
 ```
 
 **Paso 3: Activar el Entorno Virtual**
@@ -54,14 +54,14 @@ venv\Scripts\activate
 Este comando leerá el archivo requirements.txt e instalará las versiones exactas de las librerías necesarias.
 
 ```Bash
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 **Paso 5: Iniciar el Servidor API**
 Finalmente, inicie el servidor Flask.
 
 ```Bash
-python api.py
+python3 api.py
 ```
 
 El servidor se ejecutará y estará escuchando peticiones en http://127.0.0.1:5000.
