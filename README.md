@@ -1,7 +1,11 @@
 # Prototipo: Comparador de Productos
 
-Este documento proporciona las instrucciones detalladas para la instalación, configuración y ejecución de este prototipo.
+Este repositorio contiene el código fuente, la documentación técnica y el plan estratégico para el prototipo de un Asistente de Compras con GenAI.
 
+**Para una visión completa del proyecto, se recomienda leer primero el Plan Estratégico:**
+-   **[📄 Ver Plan Estratégico del Proyecto (PDF)](./Plan-De-Trabajo-ProyectoGenAI.pdf)**
+
+---
 ## Tabla de Contenidos
 1. [Requisitos Previos](#1-requisitos-previos)
 2. [Configuración del Backend](#2-configuración-del-backend)
